@@ -15,6 +15,7 @@ export default function Comment() {
         Voltar
       </Link>
       <h1>Exibindo o comentário número: {commentId}</h1>
+      <p>Do Todo: {todoId}</p>
     </>
   )
 

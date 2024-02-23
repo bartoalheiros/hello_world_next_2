@@ -44,7 +44,9 @@ export default function Todo({ todo }) {
 
   return (
     <>
-      <Link href="/">Voltar</Link>
+      <Link href="/todos">
+        Voltar
+      </Link>
       <h1>Exibindo o todo: {todo.id}</h1>
       <h3>Texto: {todo.title}</h3>
       <p>
